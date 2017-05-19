@@ -9,7 +9,7 @@ body {
 }
 
 
-/*  HEADER starts here*/
+/*  HEADER*/
 
 header {
   background-color: inherit;
@@ -37,9 +37,8 @@ header a {
   color: inherit;
 }
 
-/*  HEADER ends here*/
 
-/*  MAIN starts here*/
+/*  MAIN*/
 
 main {
   position: relative;
@@ -100,4 +99,30 @@ figure img {
 figcaption {
   margin-top: 10px;
   font-weight: bold;
+}
+
+/*  Locations*/
+
+#locations {
+  position: relative;
+  top: 160px;
+  background-image: url("../images/locations.jpg");
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+}
+
+#locations h2 {
+  margin-bottom: 0;
+}
+
+#locations .inline div {
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 300px;
+  margin: 15px 20px;
 }
