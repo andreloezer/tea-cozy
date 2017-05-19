@@ -12,6 +12,7 @@ body {
 /*  HEADER starts here*/
 
 header {
+  background-color: inherit;
   height: 69px;
   display: flex;
   align-items: center;
@@ -38,9 +39,27 @@ header a {
 
 /*  HEADER ends here*/
 
-
 /*  MAIN starts here*/
 
 main {
-  
+  position: relative;
+  top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+/*  Our Mission*/
+
+#mission {
+  background-image: url("../images/background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+
+#mission div {
+
+  width: 100%;
+  background-color: black;
 }
