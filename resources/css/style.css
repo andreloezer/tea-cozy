@@ -43,6 +43,7 @@ header a {
 main {
   position: relative;
   top: 70px;
+  margin-bottom: 250px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -125,4 +126,24 @@ figcaption {
   background-color: black;
   width: 300px;
   margin: 15px 20px;
+}
+
+
+/*  FOOTER*/
+
+footer {
+}
+
+footer h2 {
+  top: 10px;
+  margin-bottom: 40px;
+}
+
+footer section {
+  height: 200px;
+}
+
+footer p {
+  text-align: left;
+  margin-left: 20px;
 }
