@@ -43,13 +43,13 @@ header a {
 main {
   position: relative;
   top: 70px;
-  margin-bottom: 250px;
+  margin-bottom: 200px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-/*  Our Mission*/
+/*  MAIN - Our Mission*/
 
 #mission {
   background-image: url("../images/background.jpg");
@@ -65,7 +65,16 @@ main {
   background-color: black;
 }
 
-/* Tea of the Month*/
+#mission h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#mission h4{
+  margin: 10px auto;
+}
+
+/*  MAIN - Tea of the Month*/
 
 #featured {
   position: relative;
@@ -102,11 +111,11 @@ figcaption {
   font-weight: bold;
 }
 
-/*  Locations*/
+/*  MAIN - Locations*/
 
 #locations {
   position: relative;
-  top: 160px;
+  top: 115px;
   background-image: url("../images/locations.jpg");
   height: 500px;
   width: 1200px;
@@ -115,6 +124,10 @@ figcaption {
 
 #locations h2 {
   margin-bottom: 0;
+}
+
+#locations h3 {
+  margin-bottom: 10px;
 }
 
 #locations .inline div {
@@ -126,6 +139,14 @@ figcaption {
   background-color: black;
   width: 300px;
   margin: 15px 20px;
+}
+
+#locations .inline div p {
+  margin: 25px auto;
+}
+
+#locations .inline div p:last-child {
+  margin-bottom: 30px;
 }
 
 
