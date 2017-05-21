@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0 auto;
+  margin: 0;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -44,9 +44,11 @@ header a {
 /*  MAIN*/
 
 main {
+  margin: auto;
   position: relative;
-  top: 70px;
   margin-bottom: 200px;
+  top: 70px;
+  width: 1200px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -57,13 +59,13 @@ main {
 #mission {
   background-image: url("../images/background.jpg");
   height: 700px;
-  width: 1200px;
   display: flex;
-  align-items: center;
+  width: inherit;
+  /*align-items: center;*/
 }
 
 #mission div {
-
+  margin: auto;
   width: 100%;
   background-color: black;
 }
@@ -156,6 +158,8 @@ figcaption {
 /*  FOOTER*/
 
 footer {
+  margin: auto;
+  width: 1200px;
 }
 
 footer h2 {
@@ -167,7 +171,13 @@ footer section {
   height: 200px;
 }
 
-footer p {
+footer > h5 {
   text-align: left;
-  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 1200px) {
+  footer > h5 {
+    margin-left: 15px;
+  }
 }
